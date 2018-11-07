@@ -6,6 +6,7 @@ h1,h2,h3,h4,h5,h6{font-family:Heebo,Lato,'Helvetica Neue',Helvetica,Arial,sans-s
 header.masthead{position:relative;background-color:#00004d;background:url(../img/Machine-Learning-Electricity-industry.png) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 header.masthead .overlay{position:absolute;background-color:#00004d;height:100%;width:100%;top:0;left:0;opacity:1}
 =======
+=======
 >>>>>>> 37ac3ddc2262ccf00821ca2cb584857ceeb44c87
 header.masthead{position:relative;background-color:#343a40;background:url(../img/Machine-Learning.jpeg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:8rem;padding-bottom:8rem}
 header.masthead .overlay{position:absolute;background-color:#063d6d;height:100%;width:100%;top:0;left:0;opacity:.3}
