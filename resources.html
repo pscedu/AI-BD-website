@@ -2,174 +2,137 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resources</title>
+    <title>PSC AI&BD Resources</title>
+    <!-- JQUERY FOR Ken Burns effect -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:500i" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
-
+    <link href="css/carousel.css" rel="stylesheet">
   </head>
 
   <body>
-
     <!-- Navigation -->
-  <!--  <nav class="navbar navbar-light bg-light static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">PSC AI & BD</a>
-        <a class="btn btn-primary" href="https://www.psc.edu">PSC</a>
-        <a class="btn btn-primary" href="resources.html">Resources</a>
-      </div>
-    </nav> -->
+
     <div class="container">
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">PSC AI & Big Data</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+         <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#initiatives">Initiatives</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="https://www.psc.edu">PSC home</a>
+          </li>-->
+        </ul>
 
-              <a class="navbar-brand btn btn-primary" href="https://www.psc.edu">PSC AI&BD</a>
-
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav3">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="initiatives.html">Initiatives</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="resources.html">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-light" href="https://www.psc.edu">PSC</a>
-              </li>
-            </ul>
-
-          </div>
-        </nav>
+        </div>
+      </nav>
       </div>
+
     <!-- Masthead -->
     <header class="masthead text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Resources</h1>
-          </div>
-          <!--<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="cDataol-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form>
-          </div>-->
-        </div>
-      </div>
+
     </header>
 
     <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
-      <p class="lead">PSC brings powerful hardware and software to bear on your research</p>
-      <h3>Hardware</h3>
-      <p>PSC Bridges is a uniquely capable resource for empowering research by bringing together HPC, AI and Big Data.
-        It is designed to support familiar, convenient software and environments for both traditional and non-traditional
-        HPC users.  Its richly connected set of interacting systems offers exceptional flexibility for data analytics,
-        simulation, workflows and gateways, leveraging interactivity, parallel computing, Spark and Hadoop.
-      </p>
+    <section id="containers" class="features-icons bg-light text-center">
+      <p class="lead">Bridges holds a a rich set of software, containers, frameworks and environments to engage AI and Big Data research.</p>
       <p>&nbsp;</p>
+    </section>
+
+    <section id="containers" class="features-icons bg-medium">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <div  style="display:block; margin-right:auto; margin-left:auto; width:66%">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-stack-1x fa-microchip fa-rotate-90"></i>
-                      <span class="fa fa-stack-1x fa-inverse"><span style="font-weight:900; vertical-align:middle;">CPU</span></span>
-                    </span>
-            </div>
-            </div>
-              <p>Hundreds of compute nodes with hardware-supported shared memory ranging from 128GB  to 12TB
-                per node to support genomics, machine learning, graph analytics and other fields where
-                partitioning data is impractical
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div class="features-icons-icon d-flex">
-                  <div  style="display:block; margin-right:auto; margin-left:auto; width:66%">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-stack-1x fa-microchip fa-rotate-90"></i>
-                <span class="fa fa-stack-1x fa-inverse"><span style="font-weight:900; vertical-align:middle;">GPU</span></span>
-              </span>
-            </div>
-            </div>
-            <p>The most advanced GPU nodes available, to accelerate applications as diverse as machine learning,
-              image processing and materials science
-            </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                  <div  style="display:block; margin-right:auto; margin-left:auto; width:33%">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-arrows-h"></i>
-            </span>
-            </div>
-            </div>
-            <p>Data transfer nodes with 10 GigE connections to enable data movement between Bridges and XSEDE,
-              campuses, instruments and other advanced cyberinfrastructure
-            </p>
+          <div class="col-lg-12 text-left">
 
-            </div>
+            <h4>Containers</h4>
+            <p>Bridges supports Singularity containers. You can import your own, but many are already installed on Bridges for use on the DGX-2, the Volta GPUs and the P100 GPUs.</p>
+            <p>The preinstalled containers are part of the NVIDIA GPU Container Registry. They have been built with the lastest versions of AI software and optimized by NVIDIA for the Volta and P100 nodes.</p>
+            <p>Installed containers include:</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+            Caffe<br />
+            Caffe2<br />
+            DIGITS <span style="font-size:smaller; font-style:italic;">(NVIDIA Deep Learning GPU Training System)</span><br />
+            Microsoft Cognitive Toolkit <span style="font-size:smaller; font-style:italic;">(formerly CNTK)</span><br />
+            MXNet
+          </div>
+          <div class="col-4>"
+              PyTorch <br />
+            TensorFlow<br />
+            TensorFlowRT<br />
+            TensorFlowRT Inference Server<br />
+            Theano<br />
+            Torch
+          </div>
+          <div class="col-2"></div>
+        </div>
+    <!--    <a class="btn btn-sm btn-secondary" href="CONTAINERA PAGE ON PSC.EDU.html" role="button">See Container informtion</a> -->
+      </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <h3>Software</h3>
-      <p>Bridges holds a a rich set of software, frameworks and environments to engage AI and Big Data research.
-      </p>
-      <p>&nbsp;</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
+      <section id="environments" class="features-icons bg-light">
+        <div class="container text-left">
+          <div class="row">
             <h4>Environments</h4>
             <p>Create your own environment with Anaconda or python virtualenv, or use one custom-built
-              by PSC for AI applications using Anaconda and Bridges’ GPU nodes.  (link to Anaconda page)
-            </p>
+              by PSC for AI applications using Anaconda and Bridges’ GPU nodes.  </p>
+              Custom-built environments tailored to AI, Big Data and machine learning include popular software such as TensorFlow, Theano, Keras, pandas, openCV, scikit-learn and more.</p>
+            <!--  <p><a class="btn btn-sm btn-secondary" href="ANACONDA PAGE ON PSC.EDU.html" role="button">See the Anaconda documentation</a>
+            </p> -->
           </div>
-              <div class="col-lg-6">
+        </div>
+      </section>
+
+      <section id="software" class="features-icons bg-medium">
+       <div class="container">
             <h4>AI & Big Data software</h4>
-            <div class="row">
-              <div class="col-lg-2"></div>
-            <div class="col-lg-4">
+            <p>Modern software for AI and Big Data applications are available on Bridges, including:</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
             <ul class="list-unstyled text-left">
-              <li><a href="https://www.psc.edu/user-resources/software/caffe">Caffe</a>, <a href="https://www.psc.edu/user-resources/software/caffe2">Caffe2</a></li>
+              <li><a href="https://www.psc.edu/user-resources/software/caffe">Caffe</a></li>
+              <li><a href="https://www.psc.edu/user-resources/software/caffe2">Caffe2</a></li>
               <li><a href="https://www.psc.edu/user-resources/software/chainer">Chainer</a></li>
               <li><a href="https://www.psc.edu/bridges/user-guide/hadoop-and-spark">Hadoop</a></li>
               <li><a href="https://www.psc.edu/user-resources/software/keras">Keras</a></li>
@@ -178,22 +141,24 @@
               <li><a href="https://www.psc.edu/user-resources/software/matlab">MATLAB</a> <span style="font-size:smaller; font-style:italic;">includes Neural Network and Statistics and Machine Learning Toolboxes</span></li>
             </ul>
           </div>
-          <div class="col-lg-4">
+          <div class="col-4">
             <ul  class="list-unstyled text-left">
               <li><a href="https://www.psc.edu/user-resources/software/opencv">OpenCV</a></li>
+              <li><a href="https://www.psc.edu/user-resources/software/pytorch">PyTorch</a></li>
               <li><a href="https://www.psc.edu/user-resources/software/scikit-learn">Scikit-learn</a></li>
               <li><a href="https://www.psc.edu/bridges/user-guide/hadoop-and-spark">Spark</a></li>
               <li><a href="https://www.psc.edu/user-resources/software/tensorflow">TensorFlow</a></li>
               <li><a href="https://www.psc.edu/user-resources/software/theano">Theano</a></li>
-              <li><a href="https://www.psc.edu/user-resources/software/torch">Torch</a>, <a href="https://www.psc.edu/user-resources/software/pytorch">PyTorch</a></li>
-              <li>Modern languages <span style="font-size:smaller; font-style:italic;"> (python, Java, MATLAB, lua, C, C++, Fortran)</span></li>
+              <li><a href="https://www.psc.edu/user-resources/software/torch">Torch</a></li>
+              <li>Modern programming languages <span style="font-size:smaller; font-style:italic;"> (python, Java, MATLAB, lua, C, C++, Fortran)</span></li>
             </ul>
           </div>
-          <div class="col-lg-2"></div>
-        </div>
+          <div class="col-2"></div>
         </div>
       </div>
-    </div>
+  </div>
+</section>
+
 
 
 <!-- Commented out 7/27/18  DN -->
@@ -331,6 +296,7 @@
   -->
 
     <!-- Call to Action -->
+    <!--
     <section class="call-to-action text-white text-center">
       <div class="overlay"></div>
       <div class="container">
@@ -353,8 +319,10 @@
         </div>
       </div>
     </section>
+  -->
 
     <!-- Footer -->
+    <!--
     <footer class="footer bg-light">
       <div class="container">
         <div class="row">
@@ -393,6 +361,7 @@
         </div>
       </div>
     </footer>
+  -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
