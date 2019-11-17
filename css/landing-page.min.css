@@ -2,9 +2,9 @@ body{font-family:Heebo,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; font-we
 h1,h2,h3,h4,h5,h6{font-family:Heebo,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:500;}
 
 h2 {
-	color: #4a8208 !important;
+	color: #ab0004 !important;
 }
-/* teal blue - 216b81   muted lime - 4a8208  dark blue- 00080d*/
+/* teal blue - 216b81   muted lime - ab0004  dark blue- 00080d*/
 .navbar-brand {
 	font-family: robato, sans-serif;
 	font-weight: 500;
@@ -13,7 +13,7 @@ h2 {
 }
 
 .text-secondary {
-	color: #4a8208 !important;
+	color: #ab0004 !important;
 }
 
 .bg-light {
@@ -21,7 +21,8 @@ h2 {
 }
 
 .navbar {
-   background-color: #4a8208 !important;
+   /*background-color: #b50025 !important;*/
+   background-color: #ab0004 !important;
    color: white;
 }
 
